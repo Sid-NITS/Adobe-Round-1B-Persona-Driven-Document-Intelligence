@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
+    ],
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+    "processing_time": "2025-07-28T14:37:30.969636",
+    "bi_encoder": "sentence-transformers/all-MiniLM-L6-v2",
+    "cross_encoder": "cross-encoder/ms-marco-MiniLM-L-12-v2",
+    "analysis_model": "Gemma3-1B-IT",
+    "retrieval_strategy": "HyDE (Hypothetical Document Embeddings)",
+    "hypothetical_answers_generated": 51,
+    "top_k_pages": 5,
+    "recall_k": 25
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "development as a luxurious destination.",
+      "importance_rank": 1,
+      "page_number": 5
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "will o\ufb00er valuable insights into each city's charm and allure.",
+      "importance_rank": 2,
+      "page_number": 1
+    },
+    {
+      "document": "South of France - History.pdf",
+      "section_title": "important settlement in the province of Gallia Narbonensis.",
+      "importance_rank": 3,
+      "page_number": 5
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "van Gogh and Pablo Picasso.",
+      "importance_rank": 4,
+      "page_number": 12
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "crossroads of cultures and traditions.",
+      "importance_rank": 5,
+      "page_number": 11
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "Here\u2019s an overview: This trip plan involves four days exploring Nice and its surroundings!  A key attraction would be the Promenade des Anglais \u2013 perfect for strolling along the coast and visiting the Matisse Museum which showcases Henri Matisse\u2019s art and history as well as other works by the artist as well as other art forms.",
+      "page_number": 5
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "Here\u2019s an overview: This guide provides an extensive look into four major cities within the South France region \u2013 Nice, Cannes, Avignon, and Montpellier \u2013 highlighting their history and unique cultural experiences. It\u2019s perfect for planning an unforgettable trip with your group of college friends!",
+      "page_number": 1
+    },
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": "Here\u2019s an overview:\n\nN\u00eemes offers an incredible historical journey with its Roman arena and temple of Diana \u2013 two significant sites showcasing Nimes\u2019s rich past as an important Roman settlement during the Roman Empire\u2019s reign. This trip would be perfect for exploring Nimes\u2019s fascinating history and allowing your group time to appreciate its architectural wonders.",
+      "page_number": 5
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "Here\u2019s an overview:\n\nA four-day trip plan focusing on Arles and its rich history should include visits to the Roman Amphitheatre \u2013 an impressive structure with artistic significance \u2013 alongside Vincent van Gogh\u2019s time there and his profound influence on his art and paintings which were inspired by Arles\u2019s location as an important Roman settlement and pilgrimage center.",
+      "page_number": 12
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "Here\u2019s an overview: This trip plan involves four days exploring the historic city of Perpignan which blends French and Catalan cultures with an impressive fortress and cathedral that was built over centuries ago.",
+      "page_number": 11
+    }
+  ]
+}

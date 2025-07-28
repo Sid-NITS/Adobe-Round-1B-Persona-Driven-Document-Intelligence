@@ -1,0 +1,10 @@
+fitz  # This will be resolved via PyMuPDF
+PyMuPDF==1.22.5
+tqdm
+numpy
+scikit-learn
+sentence-transformers==2.2.2
+transformers==4.41.1
+torch
+protobuf==3.19.0
+git+https://github.com/google-ai-edge/ai-edge-apis.git#subdirectory=Litert_tools
